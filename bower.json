@@ -1,0 +1,22 @@
+{
+  "name": "Hide-Address-Bar",
+  "main": "Hide-Address-Bar.min.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/niksy/Hide-Address-Bar",
+  "description": "Normalized address bar hiding for iOS & Android",
+  "keywords": [
+    "ios",
+    "address-bar"
+  ],
+  "authors": [
+    "Scott Jehl"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

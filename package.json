@@ -1,0 +1,31 @@
+{
+  "name": "Hide-Address-Bar",
+  "version": "0.0.0",
+  "description": "Normalized address bar hiding for iOS & Android",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/niksy/Hide-Address-Bar.git"
+  },
+  "keywords": [
+    "ios",
+    "address-bar"
+  ],
+  "author": "Scott Jehl",
+  "contributors": [
+    "Ivan Nikolić"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niksy/Hide-Address-Bar/issues"
+  },
+  "homepage": "https://github.com/niksy/Hide-Address-Bar",
+  "devDependencies": {
+    "grunt": "^0.4.2",
+    "grunt-contrib-uglify": "^0.3.2",
+    "grunt-bump": "0.0.13"
+  }
+}
