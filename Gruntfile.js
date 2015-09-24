@@ -31,12 +31,11 @@ module.exports = function ( grunt ) {
 
 	});
 
-	grunt.registerTask('default',['uglify:dist']);
-	grunt.registerTask( 'releasePatch', ['bump-only:patch', 'default', 'bump-commit'] );
-	grunt.registerTask( 'releaseMinor', ['bump-only:minor', 'default', 'bump-commit'] );
-	grunt.registerTask( 'releaseMajor', ['bump-only:major', 'default', 'bump-commit'] );
+	require('load-grunt-tasks')(grunt);
 
-	grunt.loadNpmTasks('grunt-contrib-uglify');
-	grunt.loadNpmTasks('grunt-bump');
+	grunt.registerTask('default',['uglify:dist']);
+	grunt.registerTask('releasePatch', ['bump-only:patch', 'default', 'bump-commit']);
+	grunt.registerTask('releaseMinor', ['bump-only:minor', 'default', 'bump-commit']);
+	grunt.registerTask('releaseMajor', ['bump-only:major', 'default', 'bump-commit']);
 
 };
