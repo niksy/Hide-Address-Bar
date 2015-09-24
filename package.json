@@ -1,6 +1,6 @@
 {
   "name": "Hide-Address-Bar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Normalized address bar hiding for iOS & Android",
   "main": "hide-address-bar.js",
   "scripts": {
