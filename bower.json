@@ -1,6 +1,6 @@
 {
   "name": "Hide-Address-Bar",
-  "main": "Hide-Address-Bar.min.js",
+  "main": "hide-address-bar.js",
   "version": "0.1.0",
   "homepage": "https://github.com/niksy/Hide-Address-Bar",
   "description": "Normalized address bar hiding for iOS & Android",
